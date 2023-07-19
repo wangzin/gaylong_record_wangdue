@@ -12,7 +12,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <table class="table">
                         <tr>
-                            <td style="width:20%; padding-top: 6%;">
+                            <td style="width:20%;">
                                 <img class="img-responsive img-rounded img-bordered-sm"
                                 src="/std_pic/{{$user->pro_pic}}" onerror="this.src='/images/user.png'" alt="User profile picture">
                             </td>

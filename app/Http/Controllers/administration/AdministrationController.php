@@ -37,13 +37,13 @@ class AdministrationController extends Controller{
         ];
         $path=null;
         $files = $request->pro_pic;
-        $file_store_path =  'pro_pic';
+        $file_store_path =  'public/pro_pic';
         if ($files != null && $files != "") {
             if (!is_dir($file_store_path)) {
                 mkdir($file_store_path, 0777, TRUE);
             }
             if($request->profile_pic_exis!=null && $request->profile_pic_exis!=""){
-                $fle="pro_pic/".$request->profile_pic_exis;
+                $fle="public/pro_pic/".$request->profile_pic_exis;
                 $result = File::exists($fle);
                 if($result){
                     unlink($fle);
@@ -121,7 +121,7 @@ class AdministrationController extends Controller{
     public function དགེ་སློང་གི་ཐོ་ཡིག་གསརཔ(Request $request){
         $path=$request->profile_pic_exis;
         $files = $request->pro_pic;
-        $file_store_path =  'std_pic';
+        $file_store_path =  'public/std_pic';
         if ($files != null && $files != "") {
             if (!is_dir($file_store_path)) {
                 mkdir($file_store_path, 0777, TRUE);

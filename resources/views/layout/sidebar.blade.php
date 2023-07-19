@@ -30,7 +30,8 @@
           </li>
         {{-- @endif --}}
         <li><a href="/བདག་སྐྱོང/དགེ་སློང་ཐོ་བཀོད"><i class="fa fa-list"></i> <span class="h3">དགེ་སློང་གི་ཐོ་བཀོད། </span></a></li>
-        <li><a href="/བདག་སྐྱོང/ཐོ་བཀོད་འཚོལ"><i class="fa fa-search"></i> <span class="h3">ཐོ་བཀོད་འཚོལ། </span></a></li>
+        <li><a href="/བདག་སྐྱོང/ཐོ་བཀོད་འཚོལ/འཚོལ"><i class="fa fa-search"></i> <span class="h3">ཐོ་བཀོད་འཚོལ། </span></a></li>
+        <!-- <li><a href="/བདག་སྐྱོང/ཐོ་བཀོད་འཚོལ/ངོ་སྤྲེད་ཨང"><i class="fa fa-user"></i> <span class="h3">ངོ་སྤྲེད་ལག་ཁྱེར </span></a></li> -->
       </ul>
     </section>
   </aside>

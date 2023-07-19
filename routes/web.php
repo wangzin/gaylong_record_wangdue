@@ -21,7 +21,7 @@ Route::group(['middleware' => [ValidateUser::class, 'validate']], function () {
         Route::get('/དགེ་སློང་ཐོ་བཀོད', [App\Http\Controllers\administration\AdministrationController::class, 'དགེ་སློང་ཐོ་བཀོད']);
         Route::post('/དགེ་སློང་གི་ཐོ་ཡིག་གསརཔ', [App\Http\Controllers\administration\AdministrationController::class, 'དགེ་སློང་གི་ཐོ་ཡིག་གསརཔ']);
         Route::post('/དགེ་སློང་གི་ཐོ་ཡིགབཏོག༌གཏང', [App\Http\Controllers\administration\AdministrationController::class, 'དགེ་སློང་གི་ཐོ་ཡིགབཏོག༌གཏང']);
-        Route::get('/ཐོ་བཀོད་འཚོལ', [App\Http\Controllers\administration\AdministrationController::class, 'ཐོ་བཀོད་འཚོལ']);
+        Route::get('/ཐོ་བཀོད་འཚོལ/{param}', [App\Http\Controllers\administration\AdministrationController::class, 'ཐོ་བཀོད་འཚོལ']);
         Route::get('/ཐོ་བཀོད་འཚོལ་ནི', [App\Http\Controllers\administration\AdministrationController::class, 'ཐོ་བཀོད་འཚོལ་ནི']);
     });
 });

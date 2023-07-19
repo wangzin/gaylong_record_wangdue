@@ -29,6 +29,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <input type="hidden" value="{{$param}}" name="param"/>
                         </div>
                     </form>
                 </div>

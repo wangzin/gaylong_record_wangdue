@@ -215,19 +215,24 @@ class AdministrationController extends Controller{
         return redirect()->away('དགེ་སློང་ཐོ་བཀོད')->with($alert_type, $message);
     }
     
-    public function ཐོ་བཀོད་འཚོལ(Request $reauest){
+    public function ཐོ་བཀོད་འཚོལ($param){
         $page="administration/search_index";
         $message='';
-        return view('dashboard')->with(compact('page','message'));
+        return view('dashboard')->with(compact('page','message','param'));
     }
     
     public function ཐོ་བཀོད་འཚོལ་ནི(Request $request){
+        
         $user =GaylongModel::where('cid_no',$request->application_number)->first();
         if($user ==null || $user ==""){
             $message='འདི་ངོ་སྤྲེད་ཨང་གུ་དགེ་སློང་གི་རྒྱས་བཤད་མིན་དུག།';
             $page="administration/search_index";
         }else{
-            $page="administration/search_details";
+            if($request->param=="འཚོལ"){
+                $page="administration/search_details";
+            }else{
+                $page="administration/print_cid";
+            }
             $message='';
         }
         return view('dashboard')->with(compact('page','message','user'));

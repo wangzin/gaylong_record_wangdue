@@ -393,20 +393,20 @@
     }
     function validateform(){
         let ret=true;
-        if($('#shop_name').val()==""){
-            $('#shop_name_err').html('Please provide shop name');
+        if($('#cid_no').val()==""){
+            $('#cid_no_err').html('ངོ་སྤྲེད་ཨང་བཙུགས།');
             ret=false;
         }
-        if($('#contact_no').val()==""){
-            $('#contact_no_err').html('Please provide contact number');
+        if($('#person_name').val()==""){
+            $('#person_name_err').html('མིང་བཙུགས།');
             ret=false;
         }
-        if($('#type').val()==""){
-            $('#type_err').html('Please select shop type');
+        if($('#choe_name').val()==""){
+            $('#choe_name_err').html('ཆེས་མིང་བཙུགས།');
             ret=false;
         }
-        if($('#address').val()==""){
-            $('#address_err').html('Please mention address');
+        if($('#dzongkhag').val()==""){
+            $('#dzongkhag_err').html('རྫོང་ཁག་བཙུགས།');
             ret=false;
         }
         return ret;

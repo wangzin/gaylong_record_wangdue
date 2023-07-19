@@ -13,10 +13,10 @@
         <!-- Google Font -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
     </head>
-    <body class="hold-transition login-page" style="background-image: url('/tag.jpg');background-repeat:no-repeat;background-size: cover;">
+    <body class="hold-transition login-page" style="background-image: url('/images/wangdiphodrang.jpg');background-repeat:no-repeat;background-size: cover;">
         <div class="login-box">
             <div class="login-logo text-uppercase text-bold">
-                <a class="text-lime" href="/"><b>དགེ་སློང་ཡིག་ཐོ།</b></a>
+                <a style="color:#0a0a0a" href="/"><b>འབྲུག་ཁམས་གསུམ་དབང་འདུས་ཆོས་ཀྱི་ཕོ་བྲང་།</b></a>
             </div>
             <div class="login-box-body">
                 <p class="login-box-msg text-bold h2">མིང་རྟགས་བཀོད།</p>

@@ -1,10 +1,7 @@
 <section class="content">
     <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-search"></i></a></li>
-        <li class="active"><span class="h3">ཐོ་བཀོད་འཚོལ། </span></li>
-        <li class="pull-right">
-            <a href="#" onclick="printcertificate()" class="btn btn-info btn-sm text-white"><i class="fa fa-print"></i > <span class="h4"> པར་སྐྲིན </span></a>
-        </li>
+        <li class="active"><span class="h3">ངོ་སྤྲེད་ལག་ཁྱེར། </span></li>
     </ol>
     <div class="box box-success" id="contentMainDiv">
         <div class="box-body">
@@ -16,7 +13,6 @@
                                 <img class="img-responsive img-rounded img-bordered-sm"
                                 src="/std_pic/{{$user->pro_pic}}" onerror="this.src='/images/user.png'" alt="User profile picture">
                             </td>
-                            <td style="width:80%"><img class="img-responsive center-block" src="/images/logo.JPG"></td>
                         </tr>
                     </table>
                 </div>

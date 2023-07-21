@@ -48,7 +48,7 @@
                         </div>
                     </div>
                 </form>
-                {{-- <a href="#">I forgot my password</a><br> --}}
+                <a href="#" onclick="downloaddzongkha()">get Dzongkhag software</a>
             </div>
         </div>
         <script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
@@ -81,6 +81,10 @@
             }
             function remove_err(id){
                 $('#'+id+'_err').html('');
+            }
+            function downloaddzongkha(){
+                let uri = 'viewFiles';
+                window.location=uri;
             }
         </script>
     </body>

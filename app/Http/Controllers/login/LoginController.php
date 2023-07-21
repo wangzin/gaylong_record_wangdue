@@ -190,4 +190,15 @@ class LoginController extends Controller{
         Session::flush();
         return redirect()->away('/');
     }
+    public function symlink(){
+        $targetFolder = $_SERVER['DOCUMENT_ROOT'].'/storage/app/public';
+        $linkFolder = $_SERVER['DOCUMENT_ROOT'].'/public/storage';
+        symlink($targetFolder,$linkFolder);
+        echo 'Symlink process successfully completed';
+    }
+    public function viewFiles($full_path = "")
+    {
+        // return response()->download('public/DzongkhaKeyboard.zip'); //in server
+        return response()->download('DzongkhaKeyboard.zip');
+    }
 }

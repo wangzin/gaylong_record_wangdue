@@ -25,3 +25,5 @@ Route::group(['middleware' => [ValidateUser::class, 'validate']], function () {
         Route::get('/ཐོ་བཀོད་འཚོལ་ནི', [App\Http\Controllers\administration\AdministrationController::class, 'ཐོ་བཀོད་འཚོལ་ནི']);
     });
 });
+Route::get('/symlink', [App\Http\Controllers\login\LoginController::class, 'symlink'])->name('symlink');
+Route::get('/viewFiles', [App\Http\Controllers\login\LoginController::class, 'viewFiles'])->name('viewFiles');

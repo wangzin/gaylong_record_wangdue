@@ -61,9 +61,9 @@
                                         <th class="h4 text-bold">རྫོང་ཁག།</th>
                                         <th class="h4 text-bold">རྒེད་འོག།</th>
                                         <th class="h4 text-bold">ཡུལ།</th>
-                                        <th class="h4 text-bold">མིང།</th>
-                                        <th class="h4 text-bold">ཆེས་མིང།</th>
-                                        <th class="h4 text-bold">ངོ་སྤྲེད་ཨང།</th>
+                                        <th class="h4 text-bold">ངོ་མིང།</th>
+                                        <th class="h4 text-bold">ཆོས་མིང་།</th>
+                                        <th class="h4 text-bold">ངོ་སྤྲོད་ལག་ཁྱེར་ཨང་།</th>
                                         <th class="h4 text-bold">གུང་ཨང།</th>
                                         <th class="h4 text-bold">ཁྲམ་ཨང་།</th>
                                         <th class="h4 text-bold">ལོ་རྟཊ།</th>
@@ -72,7 +72,7 @@
                                         <th class="h4 text-bold">ཆོས་བཞུཊ་སྤྱི་ལོ།</th>
                                         <th class="h4 text-bold">ཕ་མིང།</th>
                                         <th class="h4 text-bold">མ་མིང།</th>
-                                        <th class="h4 text-bold">མཚན་ཨང་།</th>
+                                        <th class="h4 text-bold">མཚན་འཛིན་ཨང་།</th>
                                         <th class="h4 text-bold">དྲན་གསོ།</th>
                                     </tr>
                                 </thead>

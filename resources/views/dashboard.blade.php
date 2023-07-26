@@ -40,6 +40,10 @@
     <script src="{{asset('assets/dist/js/pages/dashboard2.js')}}"></script>
     <script src="{{asset('assets/bower_components/datatables.net/js/jquery.dataTables.min.js')}}"></script>
     <script src="{{asset('assets/bower_components/datatables.net/js/dataTables.bootstrap.min.js')}}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.print.min.js"></script>
     <script src="{{asset('assets/dist/js/demo.js')}}"></script>
     <script>
         $(function () {

@@ -22,7 +22,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <table class="table table-bordered">
                         <tr>
-                            <td class="h4 text-bold">མིང</td>
+                            <td class="h4 text-bold">ངོ་མིང</td>
                             <td><span class="h4">{{$user->person_name}}</span></td>
                             <td class="h4 text-bold">གྲཱ་ཚང་</td>
                             <td><span class="h4">{{$user->dratshang}}</td>
@@ -30,7 +30,15 @@
                             <td><span class="h4">{{$user->deprim}}</td>
                         </tr>
                         <tr>
-                            <td class="h4 text-bold">ལོ་དྲང་</td>
+                            <td class="h4 text-bold">ཆེས་མིང</td>
+                            <td><span class="h4">{{$user->choe_name}}</span></td>
+                            <td class="h4 text-bold"></td>
+                            <td><span class="h4">{{$user->dzongkhag}}</span></td>
+                            <td class="h4 text-bold"></td>
+                            <td><span class="h4">{{$user->gewog}}</span></td>
+                        </tr>
+                        <tr>
+                            <td class="h4 text-bold">སྐྱེས་ལོ་</td>
                             <td><span class="h4">{{$user->age}}</span></td>
                             <td class="h4 text-bold">རྫོང་ཁག</td>
                             <td><span class="h4">{{$user->dzongkhag}}</span></td>

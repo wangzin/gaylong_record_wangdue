@@ -29,9 +29,9 @@
                                 <th class="h4 text-bold">རྫོང་ཁག།</th>
                                 <th class="h4 text-bold">རྒེད་འོག།</th>
                                 <th class="h4 text-bold">ཡུལ།</th>
-                                <th class="h4 text-bold">མིང།</th>
-                                <th class="h4 text-bold">ཆེས་མིང།</th>
-                                <th class="h4 text-bold">ངོ་སྤྲེད་ཨང།</th>
+                                <th class="h4 text-bold">ངོ་མིང།</th>
+                                <th class="h4 text-bold">ཆོས་མིང་།</th>
+                                <th class="h4 text-bold">ངོ་སྤྲོད་ལག་ཁྱེར་ཨང།</th>
                                 <th class="h4 text-bold">གུང་ཨང།</th>
                                 <th class="h4 text-bold">ཁྲམ་ཨང་།</th>
                                 <th class="h4 text-bold">ལོ་རྟཊ།</th>
@@ -40,7 +40,7 @@
                                 <th class="h4 text-bold">ཆོས་བཞུཊ་སྤྱི་ལོ།</th>
                                 <th class="h4 text-bold">ཕ་མིང།</th>
                                 <th class="h4 text-bold">མ་མིང།</th>
-                                <th class="h4 text-bold">མཚན་ཨང་།</th>
+                                <th class="h4 text-bold">མཚན་འཛིན་ཨང་།</th>
                                 <th class="h4 text-bold">དྲན་གསོ།</th>
                                 <th></th>
                             </tr>
@@ -95,17 +95,17 @@
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="form-group">
                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                        <label><span class="h4">ངོ་སྤྲེད་ཨང། </span><span class="text-danger">*</span></label>
+                                        <label><span class="h4">ངོ་སྤྲོད་ལག་ཁྱེར་ཨང་། </span><span class="text-danger">*</span></label>
                                         <input name="cid_no" onchange="remove_error('cid_no')" id="cid_no" class="form-control" type="text">
                                         <span class="text-danger" id="cid_no_err"></span>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                        <label><span class="h4">མིང། </span><span class="text-danger">*</span></label>
+                                        <label><span class="h4">ངོ་མིང། </span><span class="text-danger">*</span></label>
                                         <input name="person_name" onchange="remove_error('person_name')" id="person_name" class="form-control" type="text">
                                         <span class="text-danger" id="person_name_err"></span>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                        <label><span class="h4">ཆེས་མིང།</span> <span class="text-danger">*</span></label>
+                                        <label><span class="h4">ཆོས་མིང་།</span> <span class="text-danger">*</span></label>
                                         <input name="choe_name" onchange="remove_error('choe_name')" id="choe_name" class="form-control" type="text">
                                         <span class="text-danger" id="choe_name_err"></span>
                                     </div>
@@ -153,19 +153,19 @@
                                         <span class="text-danger" id="age_name_err"></span>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                        <label><span class="h4">ལོ་དྲང་།</span><span class="text-danger">*</span></label>
+                                        <label><span class="h4">སྐྱེས་ལོ།</span><span class="text-danger">*</span></label>
                                         <input name="age" onchange="remove_error('age')" id="age" class="form-control" type="text">
                                         <span class="text-danger" id="age_err"></span>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                        <label><span class="h4">ཆོས་བཞུཊ་ལོ།</span> <span class="text-danger">*</span></label>
+                                        <label><span class="h4">ཆོས་བཞུགས་ལོ་གྲངས།</span> <span class="text-danger">*</span></label>
                                         <input name="age_in_std" onchange="remove_error('age_in_std')" id="age_in_std" class="form-control" type="text">
                                         <span class="text-danger" id="age_in_std_err"></span>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                        <label><span class="h4">ཆོས་བཞུཊ་སྤྱི་ལོ།</span> <span class="text-danger">*</span></label>
+                                        <label><span class="h4">ཆོས་བཞུགས་སྤྱི་ལོ།</span> <span class="text-danger">*</span></label>
                                         <input name="year_of_enrolment" onchange="remove_error('year_of_enrolment')" id="year_of_enrolment" class="form-control" type="text">
                                         <span class="text-danger" id="year_of_enrolment_err"></span>
                                     </div>
@@ -214,7 +214,7 @@
                                         <span class="text-danger" id="deprim_err"></span>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                        <label><span class="h4">མཚན་འཛིན་ཐོ་དེབ་ཨང་།</span> <span class="text-danger">*</span></label>
+                                        <label><span class="h4">མཚན་འཛིན་ཨང་།</span> <span class="text-danger">*</span></label>
                                         <input name="thodabaang" onchange="remove_error('thodabaang')" id="thodabaang" class="form-control" type="text">
                                         <span class="text-danger" id="thodabaang_err"></span>
                                     </div>
@@ -231,7 +231,7 @@
                                         <span class="text-danger" id="blood_group_err"></span>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                        <label><span class="h4">སྐྱེས་བའི་ཚེས་དང་སྤྱི་ལོ།</span><span class="text-danger">*</span></label>
+                                        <label><span class="h4">སྐྱེས་བའི་ཟླ་ཚེས།</span><span class="text-danger">*</span></label>
                                         <input name="dob" onchange="remove_error('dob')" id="dob" class="form-control" type="text">
                                         <span class="text-danger" id="dob_err"></span>
                                     </div>
@@ -318,6 +318,10 @@
             scrollCollapse: true,
             paging:         false,
             searching:      true,
+            dom: 'Bfrtip',
+            buttons: [
+                'copy', 'excel', 'pdf', 'print'
+            ]
         })
     });
 
@@ -402,7 +406,7 @@
             ret=false;
         }
         if($('#choe_name').val()==""){
-            $('#choe_name_err').html('ཆེས་མིང་བཙུགས།');
+            $('#choe_name_err').html('ཆོས་མིང་བཙུགས།');
             ret=false;
         }
         if($('#dzongkhag').val()==""){

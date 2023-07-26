@@ -24,53 +24,56 @@
             <hr>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <table class="table table-bordered">
+                    <table class="table table-bordered" style="border: 1px">
                         <tr>
-                            <td class="h4 text-bold">མིང</td>
+                            <td class="h4 text-bold">ངོ་མིང་།</td>
                             <td><span class="h4">{{$user->person_name}}</span></td>
-                            <td class="h4 text-bold">གྲཱ་ཚང་</td>
-                            <td><span class="h4">{{$user->dratshang}}</td>
-                            <td class="h4 text-bold">སྡེ་རིམ</td>
-                            <td><span class="h4">{{$user->deprim}}</td>
-                        </tr>
-                        <tr>
-                            <td class="h4 text-bold">ལོ་དྲང་</td>
-                            <td><span class="h4">{{$user->age}}</span></td>
-                            <td class="h4 text-bold">རྫོང་ཁག</td>
+                            <td class="h4 text-bold">རྫོང་ཁག།</td>
                             <td><span class="h4">{{$user->dzongkhag}}</span></td>
-                            <td class="h4 text-bold">རྒེད་འོག</td>
+                            <td class="h4 text-bold">སྐྱེས་བའི་ཟླ་ཚེས།</td>
+                            <td><span class="h4">{{$user->dob}}</span></td>
+                            <td class="h4 text-bold">དྲན་གསོ།</td>
+                        </tr>
+                        <tr>
+                            <td class="h4 text-bold">ཆོས་མིང་།</td>
+                            <td><span class="h4">{{$user->choe_name}}</span></td>
+                            <td class="h4 text-bold">རྒེད་འོག།</td>
                             <td><span class="h4">{{$user->gewog}}</span></td>
+                            <td class="h4 text-bold">ཆོས་བཞུགས་སྤྱི་ལོ།</td>
+                            <td><span class="h4">{{$user->year_of_enrolment}}</span></td>
+                            <td rowspan="5"><span class="h4">{{$user->remarks}}</span></td>
                         </tr>
                         <tr>
-                            <td class="h4 text-bold">ཡུལ</td>
+                            <td class="h4 text-bold">སྐྱེས་ལོ།</td>
+                            <td><span class="h4">{{$user->age}}</span></td>
+                            <td class="h4 text-bold">ཡུལ།</td>
                             <td><span class="h4">{{$user->village}}</span></td>
-                            <td class="h4 text-bold">ངོ་སྤྲེད་ཨང</td>
-                            <td><span class="h4">{{$user->cid_no}}</span></td>
-                            <td class="h4 text-bold">བརྒྱུད༌འཕྲིན༌ཨང་</td>
-                            <td><span class="h4">{{$user->contact_no}}</span></td>
+                            <td class="h4 text-bold">ཆོས་བཞུགས་ལོ་གྲངས།</td>
+                            <td><span class="h4">{{$user->age_in_std}}</td>
                         </tr>
                         <tr>
-                            <td class="h4 text-bold">མཚན་འཛིན་ཐོ་དེབ་ཨང་</td>
+                            <td class="h4 text-bold">ངོ་སྤྲོད་ལག་ཁྱེར་ཨང་།</td>
+                            <td><span class="h4">{{$user->cid_no}}</span></td>
+                            <td class="h4 text-bold">གྲཱ་ཚང་།</td>
+                            <td><span class="h4">{{$user->dratshang}}</span></td>
+                            <td class="h4 text-bold">ཕ་མིང་།</td>
+                            <td><span class="h4">{{$user->father_name}}</span></td>
+                        </tr>
+                        <tr>
+                            <td class="h4 text-bold">མཚན་འཛིན་ཨང་།</td>
                             <td><span class="h4">{{$user->thodabaang}}</span></td>
                             <td class="h4 text-bold">དགོན་སྡེ་</td>
-                            <td><span class="h4">{{$user->contact_no}}</span></td>
-                            <td class="h4 text-bold">ཁྲག་གི་སྡེ་ཚན</td>
-                            <td><span class="h4">{{$user->blood_group}}</span></td>
-                        </tr>
-                        <tr>
-                            <td class="h4 text-bold">ཕ་མིང་དང་བརྒྱུད༌འཕྲིན༌ཨང</td>
-                            <td><span class="h4">{{$user->father_name}}</span></td>
-                            <td><span class="h4">{{$user->father_no}}</span></td>
-                            <td class="h4 text-bold">འབྲེལ་ཡོད་ཀྱི་མིང་དང་བརྒྱུད༌འཕྲིན༌ཨང</td>
-                            <td><span class="h4">{{$user->guardian_name}}</span></td>
-                            <td><span class="h4">{{$user->guardian_no}}</span></td>
-                        </tr>
-                        <tr>
-                            <td class="h4 text-bold">ཕ་མིང་དང་བརྒྱུད༌འཕྲིན༌ཨང</td>
+                            <td><span class="h4">{{$user->gyandey}}</span></td>
+                            <td class="h4 text-bold">མ་མིང་།</td>
                             <td><span class="h4">{{$user->mother_name}}</span></td>
+                        </tr>
+                        <tr>
+                            <td class="h4 text-bold">བརྒྱུད༌འཕྲིན༌ཨང་།</td>
+                            <td><span class="h4">{{$user->contact_no}}</span></td>
+                            <td class="h4 text-bold">སྡེ་རིམ།</td>
+                            <td><span class="h4">{{$user->deprim}}</span></td>
+                            <td class="h4 text-bold">བརྒྱུད༌འཕྲིན༌ཨང་།</td>
                             <td><span class="h4">{{$user->mother_no}}</span></td>
-                            <td class="h4 text-bold">སྐྱེས་བའི་ཚེས་དང་སྤྱི་ལོ</td>
-                            <td colspan="2"><span class="h4">{{$user->dob}}</span></td>
                         </tr>
                     </table>
                     <br>

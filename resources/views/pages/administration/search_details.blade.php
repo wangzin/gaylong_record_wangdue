@@ -72,8 +72,8 @@
                             <td><span class="h4">{{$user->contact_no}}</span></td>
                             <td class="h4 text-bold">སྡེ་རིམ།</td>
                             <td><span class="h4">{{$user->deprim}}</span></td>
-                            <td class="h4 text-bold">བརྒྱུད༌འཕྲིན༌ཨང་།</td>
-                            <td><span class="h4">{{$user->mother_no}}</span></td>
+                            {{-- <td class="h4 text-bold">བརྒྱུད༌འཕྲིན༌ཨང་།</td>
+                            <td><span class="h4">{{$user->mother_no}}</span></td> --}}
                         </tr>
                     </table>
                     <br>

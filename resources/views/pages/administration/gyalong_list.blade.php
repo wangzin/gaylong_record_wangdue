@@ -35,7 +35,7 @@
                                 <th class="h4 text-bold">གུང་ཨང།</th>
                                 <th class="h4 text-bold">ཁྲམ་ཨང་།</th>
                                 <th class="h4 text-bold">ལོ་རྟཊ།</th>
-                                <th class="h4 text-bold">ལོ་དྲང་།</th>
+                                <th class="h4 text-bold">ལོ་གྲངས་།</th>
                                 <th class="h4 text-bold">ཆོས་བཞུཊ་ལོ།</th>
                                 <th class="h4 text-bold">ཆོས་བཞུཊ་སྤྱི་ལོ།</th>
                                 <th class="h4 text-bold">ཕ་མིང།</th>
@@ -60,13 +60,14 @@
                                     <td>{{$data->cid_no}}</td>
                                     <td>{{$data->gung_no}}</td>
                                     <td>{{$data->thrm_no}}</td>
-                                    <td>{{$data->contact_no}}</td>
+                                    {{-- <td>{{$data->contact_no}}</td> --}}
                                     <td>{{$data->age_name}}</td>
                                     <td>{{$data->age}}</td>
                                     <td>{{$data->age_in_std}}</td>
                                     <td>{{$data->year_of_enrolment}}</td>
                                     <td>{{$data->father_name}}</td>
                                     <td>{{$data->mother_name}}</td>
+                                    <td>{{$data->thodabaang}}</td>
                                     <td>{{$data->identy_no}}</td>
                                     <td>
                                         <a href="#" onclick="showmodal('edit', {{ $data }})" class="btn btn-info btn-sm btn-flat text-white"><i class="fa fa-eye"></i > <span class="h4">ཞིབ་ལྟ་འབད</span></a>
@@ -179,14 +180,10 @@
                                         <input name="mother_name" onchange="remove_error('mother_name')" id="mother_name" class="form-control" type="text">
                                         <span class="text-danger" id="mother_name_err"></span>
                                     </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                        <label><span class="h4">འབྲེལ་ཡོད་ཀྱི་མིང།</span> <span class="text-danger">*</span></label>
-                                        <input name="guardian_name" onchange="remove_error('guardian_name')" id="guardian_name" class="form-control" type="text">
-                                        <span class="text-danger" id="guardian_name_err"></span>
-                                    </div>
+                                    
                                 </div>
                                 <div class="form-group">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    {{-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                         <label><span class="h4">ཕ་གི་བརྒྱུད༌འཕྲིན༌ཨང།</span> <span class="text-danger">*</span></label>
                                         <input name="father_no" onchange="remove_error('father_no')" id="father_no" class="form-control" type="text">
                                         <span class="text-danger" id="father_no_err"></span>
@@ -195,6 +192,11 @@
                                         <label><span class="h4">མ་གི་བརྒྱུད༌འཕྲིན༌ཨང།</span><span class="text-danger">*</span></label>
                                         <input name="mother_no" onchange="remove_error('mother_no')" id="mother_no" class="form-control" type="text">
                                         <span class="text-danger" id="mother_no_err"></span>
+                                    </div> --}}
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                        <label><span class="h4">འབྲེལ་ཡོད་ཀྱི་མིང།</span> <span class="text-danger">*</span></label>
+                                        <input name="guardian_name" onchange="remove_error('guardian_name')" id="guardian_name" class="form-control" type="text">
+                                        <span class="text-danger" id="guardian_name_err"></span>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                         <label><span class="h4">འབྲེལ་ཡོད་ཀྱི་བརྒྱུད༌འཕྲིན༌ཨང།</span><span class="text-danger">*</span></label>
@@ -238,11 +240,11 @@
                                 </div>
                                 
                                 <div class="form-group">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    {{-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                         <label><span class="h4">མཚན་ཨང་།</span> <span class="text-danger">*</span></label>
                                         <input name="identy_no" onchange="remove_error('identy_no')" id="identy_no" class="form-control" type="text">
                                         <span class="text-danger" id="identy_no_err"></span>
-                                    </div>
+                                    </div> --}}
                                    
                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                         <label><span class="h4">ངོ་པར།</span> </label>

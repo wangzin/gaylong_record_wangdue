@@ -67,7 +67,7 @@
                                         <th class="h4 text-bold">གུང་ཨང།</th>
                                         <th class="h4 text-bold">ཁྲམ་ཨང་།</th>
                                         <th class="h4 text-bold">ལོ་རྟཊ།</th>
-                                        <th class="h4 text-bold">ལོ་དྲང་།</th>
+                                        <th class="h4 text-bold">ལོ་གྲངས་།</th>
                                         <th class="h4 text-bold">ཆོས་བཞུཊ་ལོ།</th>
                                         <th class="h4 text-bold">ཆོས་བཞུཊ་སྤྱི་ལོ།</th>
                                         <th class="h4 text-bold">ཕ་མིང།</th>
@@ -91,13 +91,14 @@
                                             <td>{{$data->cid_no}}</td>
                                             <td>{{$data->gung_no}}</td>
                                             <td>{{$data->thrm_no}}</td>
-                                            <td>{{$data->contact_no}}</td>
+                                            {{-- <td>{{$data->contact_no}}</td> --}}
                                             <td>{{$data->age_name}}</td>
                                             <td>{{$data->age}}</td>
                                             <td>{{$data->age_in_std}}</td>
                                             <td>{{$data->year_of_enrolment}}</td>
                                             <td>{{$data->father_name}}</td>
                                             <td>{{$data->mother_name}}</td>
+                                            <td>{{$data->thodabaang}}</td>
                                             <td>{{$data->identy_no}}</td>
                                         </tr>
                                     @endforeach
